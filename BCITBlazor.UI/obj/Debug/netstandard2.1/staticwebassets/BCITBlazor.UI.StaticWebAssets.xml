@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\rflachman.BCMGT\source\repos\BCITBlazorPackages\BCITBlazor.UI\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="_content/BCITBlazor.Common" Path="C:\Users\rflachman.BCMGT\source\repos\BCITBlazorPackages\BCITBlazor.Common\wwwroot\" />
+</StaticWebAssets>

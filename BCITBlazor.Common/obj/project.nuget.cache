@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MpnUIf4Q4BqcLAZW7A6uQahYSoJhT7wJxBtzqNUoJKupkZKrtjtddFVnbYNI1Nio7+PUINHVqt5Z//pRPw6GMQ==",
+  "dgSpecHash": "PzFnG2ReykMpV0V5u+7tQeLVIG2i7FqpUwNStJgTgMaUNWaFJl/u6zaPs3I6wsSHwZIkfeTvuD5GyLpKu1M2og==",
   "success": true,
   "projectFilePath": "C:\\Users\\rflachman.BCMGT\\source\\repos\\BCITBlazorPackages\\BCITBlazor.Common\\BCITBlazor.Common.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rflachman.BCMGT\\.nuget\\packages\\buildwebcompiler\\1.12.405\\buildwebcompiler.1.12.405.nupkg.sha512",
     "C:\\Users\\rflachman.BCMGT\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.8\\microsoft.aspnetcore.authorization.3.1.8.nupkg.sha512",
     "C:\\Users\\rflachman.BCMGT\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.8\\microsoft.aspnetcore.components.3.1.8.nupkg.sha512",
     "C:\\Users\\rflachman.BCMGT\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.8\\microsoft.aspnetcore.components.analyzers.3.1.8.nupkg.sha512",

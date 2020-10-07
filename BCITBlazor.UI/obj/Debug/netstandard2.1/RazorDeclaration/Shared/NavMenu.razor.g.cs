@@ -76,6 +76,13 @@ using BCITBlazor.UI.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "C:\Users\rflachman.BCMGT\source\repos\BCITBlazorPackages\BCITBlazor.UI\_Imports.razor"
+using BCITBlazor.Common.Dropdowns;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

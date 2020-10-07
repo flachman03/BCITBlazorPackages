@@ -15,4 +15,7 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgBuildWebCompiler Condition=" '$(PkgBuildWebCompiler)' == '' ">C:\Users\rflachman.BCMGT\.nuget\packages\buildwebcompiler\1.12.405</PkgBuildWebCompiler>
+  </PropertyGroup>
 </Project>
