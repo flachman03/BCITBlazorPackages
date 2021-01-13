@@ -21,3 +21,6 @@
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
   .bcit-dropdown:hover {
     cursor: pointer; }
+
+.bcit-table-column-header {
+  text-align: center; }

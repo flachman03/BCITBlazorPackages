@@ -12,56 +12,64 @@ namespace BCITBlazor.Common.Tables
         [Parameter]
         public BCITDataTableDefinitions TableDefinitions { get; set; }
 
-        public BCITDataTableCellDefinition CellDefinition { get; set; }
+        public List<BCITDataTableCellDefinition> CellDefinition { get; set; }
 
         public string Title { get; set; }
 
         public BCITDataTableBase()
         {
-            CellDefinition = new BCITDataTableCellDefinition();
-            CreateCellDefinition();
+            CellDefinition = new List<BCITDataTableCellDefinition>();
+            CellDefinition.Add(CreateCellDefinition());
+            CellDefinition.Add(CreateCellDefinition());
+            CellDefinition.Add(CreateCellDefinition());
+            CellDefinition.Add(CreateCellDefinition());
+            CellDefinition.Add(CreateCellDefinition());
+            CellDefinition.Add(CreateCellDefinition());
         }
 
-        private void CreateCellDefinition()
+        private BCITDataTableCellDefinition CreateCellDefinition()
         {
-            CellDefinition.CellType = BCITDataTableCellType.InputText;
-            CellDefinition.TextValue = "";
-            CellDefinition.OnChange = InitiateOnChange;
-            CellDefinition.OnEnter = InitiateOnEnter;
-            CellDefinition.OnBlur = InitiateOnBlur;
-            CellDefinition.OnKeyUp = InitiateOnKeyUp;
+            var cell = new BCITDataTableCellDefinition();
+            cell.CellType = BCITDataTableCellType.InputText;
+            cell.TextValue = "";
+            cell.Actions.OnChange = InitiateOnChange;
+            cell.Actions.OnEnter = InitiateOnEnter;
+            cell.Actions.OnBlur = InitiateOnBlur;
+            cell.Actions.OnKeyUp = InitiateOnKeyUp;
             Title = "Test Title";
+
+            return cell;
         }
 
-        public void InitiateOnChange()
+        public void InitiateOnChange(string value)
         {
             Console.WriteLine("DataTable layer Initiate on Change");
 
-            Title = CellDefinition.TextValue;
+            Title = value;
             StateHasChanged();
         }
 
-        public void InitiateOnEnter()
+        public void InitiateOnEnter(string value)
         {
             Console.WriteLine("DataTable layer Initiate on enter");
 
-            Title = CellDefinition.TextValue;
+            Title = value;
             StateHasChanged();
         }
 
-        public void InitiateOnBlur()
+        public void InitiateOnBlur(string value)
         {
             Console.WriteLine("DataTable layer Initiate on Blur");
 
-            Title = CellDefinition.TextValue;
+            Title = value;
             StateHasChanged();
         }
 
-        public void InitiateOnKeyUp()
+        public void InitiateOnKeyUp(string value)
         {
             Console.WriteLine("DataTable layer Initiate on Keyup");
 
-            Title = CellDefinition.TextValue;
+            Title = value;
             StateHasChanged();
         }
 

@@ -26,19 +26,22 @@ namespace BCITBlazor.UI.Pages
             CreateTableDefinitions();
         }
 
-        private void CreateHeaderDefinitions()
+        private void CreateColumnDefinitions()
         {
-            TableDefinitions.HeaderDefinitions.Headers.Add("Company");
-            TableDefinitions.HeaderDefinitions.Headers.Add("Stock Number");
-            TableDefinitions.HeaderDefinitions.Headers.Add("Employee");
-            TableDefinitions.HeaderDefinitions.Headers.Add("Start Date");
+            TableDefinitions.Columns.Add(new BCITDataTableColumnDefinitions() { Header = "Stock #" });
+            TableDefinitions.Columns.Add(new BCITDataTableColumnDefinitions() { Header = "Vehicle" });
+            TableDefinitions.Columns.Add(new BCITDataTableColumnDefinitions() { Header = "Customer Name" });
+            TableDefinitions.Columns.Add(new BCITDataTableColumnDefinitions() { Header = "Store" });
+            TableDefinitions.Columns.Add(new BCITDataTableColumnDefinitions() { Header = "Account" });
+            TableDefinitions.Columns.Add(new BCITDataTableColumnDefinitions() { Header = "Comments" });
+
         }
 
         private void CreateTableDefinitions()
         {
             TableDefinitions.Sorting = true;
             TableDefinitions.Searching = true;
-            CreateHeaderDefinitions();
+            CreateColumnDefinitions();
         }
 
 

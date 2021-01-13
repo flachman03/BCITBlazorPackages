@@ -8,19 +8,18 @@ namespace BCITBlazor.Common.Tables.Definitions
 {
     public class BCITDataTableCellDefinition
     {
+        public BCITDataTableCellDefinition()
+        {
+            Actions = new BCITActions();
+            CellType = BCITDataTableCellType.Text;
+        }
         public BCITDataTableCellType CellType { get; set; }
 
         public string TextValue { get; set; }
 
         public string InputPlaceholder { get; set; }
 
-        public Action OnChange { get; set; }
-
-        public Action OnKeyUp { get; set; }
-
-        public Action OnEnter { get; set; }
-
-        public Action OnBlur { get; set; }
+        public BCITActions Actions { get; set; }
 
     }
 }

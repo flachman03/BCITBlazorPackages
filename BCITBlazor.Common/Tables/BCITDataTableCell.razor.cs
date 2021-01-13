@@ -11,24 +11,27 @@ namespace BCITBlazor.Common.Tables
     {
         [Parameter]
         public BCITDataTableCellDefinition Cell { get; set; }
+
+        [Parameter]
+        public BCITDataTableColumnDefinitions Column { get; set; }
         
 
         public void InitiateOnKeyUp(KeyboardEventArgs e)
         {
             if(e.Key == "Enter")
             {
-                Cell.OnEnter?.Invoke();
+                Cell.Actions.OnEnter?.Invoke(Cell.TextValue);
             }
             else 
             { 
                 
-                Cell.OnKeyUp?.Invoke();
+                Cell.Actions.OnKeyUp?.Invoke(Cell.TextValue);
             }
         }
 
         public void InitiateOnBlur(FocusEventArgs e)
         {
-            Cell.OnBlur?.Invoke();
+            Cell.Actions.OnBlur?.Invoke(Cell.TextValue);
         }
 
         public void InitiateOnchange(ChangeEventArgs e)

@@ -8,9 +8,9 @@ namespace BCITBlazor.Common.Tables.Definitions
     {
         public BCITDataTableDefinitions()
         {
-            HeaderDefinitions = new BCITHeaderDefinitions();
+            Columns = new List<BCITDataTableColumnDefinitions>();
         }
-        public BCITHeaderDefinitions HeaderDefinitions { get; set; }
+        public List<BCITDataTableColumnDefinitions> Columns { get; set; }
 
         public bool Sorting { get; set; }
 
