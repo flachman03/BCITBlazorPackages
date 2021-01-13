@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCITBlazor.Common", "BCITBlazor.Common\BCITBlazor.Common.csproj", "{4A9FA71D-54C7-41B2-A9ED-4BBA6E2F1B05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BCITBlazor.Common", "BCITBlazor.Common\BCITBlazor.Common.csproj", "{4A9FA71D-54C7-41B2-A9ED-4BBA6E2F1B05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCITBlazor.UI", "BCITBlazor.UI\BCITBlazor.UI.csproj", "{AE2886BA-2C56-4954-93CD-AE53056D4E2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BCITBlazor.UI", "BCITBlazor.UI\BCITBlazor.UI.csproj", "{AE2886BA-2C56-4954-93CD-AE53056D4E2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

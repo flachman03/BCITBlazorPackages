@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\zpPyu8YGqB5z9IlkNuMoVoqKp4uGUtwQeFL0rJWSVpk=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\p7MpspmWsC6jZXoHyUeKXMpyNdweuXBCLu3IsamPkRs=.hash",
       "Source": "C:\\Users\\rflachman.BCMGT\\source\\repos\\BCITBlazorPackages\\BCITBlazor.UI\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BCITBlazor.UI.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BCITBlazor.UI.dll.gz"
     },
@@ -191,7 +191,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\yGdfhhBwWXquHroQvFPGa-1xcUvio2W66iC6OR8wbwc=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BjqUvyKB8ycQ1ctUpBgVWudU81doPbhjp4SpM6Urg-E=.hash",
       "Source": "C:\\Users\\rflachman.BCMGT\\source\\repos\\BCITBlazorPackages\\BCITBlazor.UI\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BCITBlazor.Common.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BCITBlazor.Common.dll.gz"
     },
@@ -266,12 +266,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\4DaOBPLzQTpfhpkIaoxT_eq3eTcut9Iv5BMKBbubFWc=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\R144AlGA4N4PTcW-2YGyhXclivTWlqhN7uaZAVWsNIY=.hash",
       "Source": "C:\\Users\\rflachman.BCMGT\\source\\repos\\BCITBlazorPackages\\BCITBlazor.UI\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BCITBlazor.UI.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BCITBlazor.UI.pdb.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\E0q4S7N0nIINHEorxNex-EO1J68tC9WTY0Hr6YqbBFI=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BW4ldQ7h5yN9o5oLIzEujg-q5a2QgU6Rm1nlGCijE1o=.hash",
       "Source": "C:\\Users\\rflachman.BCMGT\\source\\repos\\BCITBlazorPackages\\BCITBlazor.UI\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BCITBlazor.Common.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BCITBlazor.Common.pdb.gz"
     },
@@ -296,7 +296,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\RHOIgO2Ct1f_E-iJZa68Glw7rHUxyX881xZ5vCZ6QVo=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Ee5FNSrXXV6AeD2aBJKPbhCzxNrpVrEkcDzGkE878m4=.hash",
       "Source": "C:\\Users\\rflachman.BCMGT\\source\\repos\\BCITBlazorPackages\\BCITBlazor.UI\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }

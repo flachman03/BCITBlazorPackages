@@ -28,6 +28,8 @@
           "Microsoft.AspNetCore.Components": "3.1.8",
           "Microsoft.AspNetCore.Components.Web": "3.1.8",
           "NETStandard.Library": "2.0.3",
+          "System.Drawing.Common": "4.7.0",
+          "bootstrap": "4.5.3",
           "Microsoft.Win32.Primitives": "4.0.3.0",
           "mscorlib": "4.0.0.0",
           "netstandard": "2.0.0.0",
@@ -711,7 +713,14 @@
           "System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "bootstrap/4.5.3": {
+        "dependencies": {
+          "jQuery": "3.0.0",
+          "popper.js": "1.16.1"
+        }
+      },
       "BuildWebCompiler/1.12.405": {},
+      "jQuery/3.0.0": {},
       "Microsoft.AspNetCore.Authorization/3.1.8": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "3.1.8",
@@ -819,6 +828,7 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
+      "popper.js/1.16.1": {},
       "System.Buffers/4.5.1": {
         "compile": {
           "ref/netstandard2.0/System.Buffers.dll": {}
@@ -827,6 +837,11 @@
       "System.ComponentModel.Annotations/4.7.0": {
         "compile": {
           "ref/netstandard2.0/System.ComponentModel.Annotations.dll": {}
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "compile": {
+          "ref/netstandard2.0/System.Drawing.Common.dll": {}
         }
       },
       "System.Memory/4.5.4": {
@@ -887,6 +902,8 @@
           "Microsoft.AspNetCore.Components": "3.1.8",
           "Microsoft.AspNetCore.Components.Web": "3.1.8",
           "NETStandard.Library": "2.0.3",
+          "System.Drawing.Common": "4.7.0",
+          "bootstrap": "4.5.3",
           "Microsoft.Win32.Primitives": "4.0.3.0",
           "mscorlib": "4.0.0.0",
           "netstandard": "2.0.0.0",
@@ -1005,7 +1022,14 @@
           "BCITBlazor.Common.dll": {}
         }
       },
+      "bootstrap/4.5.3": {
+        "dependencies": {
+          "jQuery": "3.0.0",
+          "popper.js": "1.16.1"
+        }
+      },
       "BuildWebCompiler/1.12.405": {},
+      "jQuery/3.0.0": {},
       "Microsoft.AspNetCore.Authorization/3.1.8": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "3.1.8",
@@ -1149,6 +1173,7 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
+      "popper.js/1.16.1": {},
       "System.Buffers/4.5.1": {
         "runtime": {
           "lib/netstandard2.0/System.Buffers.dll": {
@@ -1162,6 +1187,14 @@
           "lib/netstandard2.0/System.ComponentModel.Annotations.dll": {
             "assemblyVersion": "4.2.1.0",
             "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
           }
         }
       },
@@ -1241,12 +1274,26 @@
       "serviceable": false,
       "sha512": ""
     },
+    "bootstrap/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KQvCPAvvWyDErmwn+VqTLE/9skJ7Ypt2EXfmU/YXQv+0jPjz5q8HH9xsbsVVVt+vlQd3fmE1SPLPxEVMOesTRg==",
+      "path": "bootstrap/4.5.3",
+      "hashPath": "bootstrap.4.5.3.nupkg.sha512"
+    },
     "BuildWebCompiler/1.12.405": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-1l1RK0jV+5QjJM22J5IGHm/EFaB3JN0WorKnLLP6HRnnf5H4sU4IBdBnMwN1OrVmww/3ir8fhbV0ZNGX6Uqn5w==",
       "path": "buildwebcompiler/1.12.405",
       "hashPath": "buildwebcompiler.1.12.405.nupkg.sha512"
+    },
+    "jQuery/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xFfntV19HzCtKdJWOp/XT9PUY3SslokTDDLFJZdBug36j1XVhw1+vPQ/n7Gd5y+jdpesn5B1m1yn1qIUq57jlA==",
+      "path": "jquery/3.0.0",
+      "hashPath": "jquery.3.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/3.1.8": {
       "type": "package",
@@ -1353,6 +1400,13 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
+    "popper.js/1.16.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6GiVZho0vwBnId7pK7NLTjMGq4F0/VE65I08CCeKlarVoUt1w8SGTtJmhNo/0pK38EGUP/xbT4+OkWB8UTMPBw==",
+      "path": "popper.js/1.16.1",
+      "hashPath": "popper.js.1.16.1.nupkg.sha512"
+    },
     "System.Buffers/4.5.1": {
       "type": "package",
       "serviceable": true,
@@ -1366,6 +1420,13 @@
       "sha512": "sha512-0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
       "path": "system.componentmodel.annotations/4.7.0",
       "hashPath": "system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "path": "system.drawing.common/4.7.0",
+      "hashPath": "system.drawing.common.4.7.0.nupkg.sha512"
     },
     "System.Memory/4.5.4": {
       "type": "package",

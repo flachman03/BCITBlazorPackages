@@ -14,7 +14,7 @@ namespace BCITBlazor.UI.Services
 
             items.Add(new BCITSelectListItem { Text = "GSU", Id = "1", IsSelected = false });
             items.Add(new BCITSelectListItem { Text = "GMA", Id = "2", IsSelected = false });
-            items.Add(new BCITSelectListItem { Text = "GTO", Id = "3", IsSelected = true });
+            items.Add(new BCITSelectListItem { Text = "GTOasdfasfadf", Id = "3", IsSelected = true });
             items.Add(new BCITSelectListItem { Text = "GFD", Id = "4", IsSelected = false });
 
             return items;

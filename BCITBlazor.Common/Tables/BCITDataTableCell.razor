@@ -1,0 +1,21 @@
+﻿@inherits BCITDataTableCellBase
+
+<td>
+    @if(Cell.CellType == BCITDataTableCellType.Text)
+    {
+        <p>@Cell.TextValue</p>
+    }
+
+    @if(Cell.CellType == BCITDataTableCellType.InputText)
+    {
+        <EditForm Model="Cell">
+            <input @bind-value="Cell.TextValue" 
+                       @bind-value:event="oninput"
+                       @onkeyup=" e => InitiateOnKeyUp(e)" 
+                       @onblur="e => InitiateOnBlur(e)"
+                       @onchange="e => InitiateOnchange(e)"
+                       />
+        </EditForm>
+    }
+</td>
+

@@ -3,9 +3,29 @@
     used from a library project/package.
 */
 
+$primary-color-blue: #2f4050;
+
 .my-component {
     border: 2px dashed red;
     padding: 1em;
     margin: 1em 0;
     background-image: url('background.png');
 }
+
+.bcit-dropdown {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: $primary-color-blue;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e5e6e7;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+

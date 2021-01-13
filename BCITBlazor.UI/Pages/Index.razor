@@ -1,6 +1,7 @@
 ﻿@page "/"
 @inherits IndexBase
 @using BCITBlazor.Common.Dropdowns
+@using BCITBlazor.Common.Tables
 
 <h1>Hello, world!</h1>
 
@@ -8,4 +9,15 @@ Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
 
-<Dropdown ListItems="ListItems" OnClick="SelectCompany"/>
+<div>
+    <label>BCIT Single Select Dropdown</label>
+    <Dropdown ListItems="ListItems"/>
+    <h4>Parameters</h4>
+    <p>ListItems: A list of BCITSelectListItems</p>
+    <p>OnClick: Method to invoke when an option is clicked. Returns the Id of the BCITSelectListItem</p>
+    <p>Width: Sets the width of the dropdown. If no width is provided, set at 200px</p>
+</div>
+<div>
+    <label>BCIT DataTable</label>
+    <BCITDataTable TableDefinitions="TableDefinitions"/>
+</div>

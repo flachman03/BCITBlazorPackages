@@ -1,19 +1,25 @@
 ﻿@inherits DropdownBase
 @using Microsoft.AspNetCore.Components.Forms
+
 <EditForm Model="ListItems">
-    <InputSelect @bind-Value="SelectedItemId" class="bcit-dropdown"> 
-        @foreach(var item in ListItems)
-        {
-            if(item.IsSelected)
+    @{ 
+        var dropdownWidth = Width != null ? $"{Width}px" : "200px";
+    }
+    <div style="width: @dropdownWidth" >
+        <InputSelect @bind-Value="SelectedItemId" class="bcit-dropdown"> 
+            @foreach(var item in ListItems)
             {
-                <option selected @onclick="InvokeOnClick">@item.Text</option>
+                if(item.IsSelected)
+                {
+                    <option selected @onclick="InvokeOnClick">@item.Text</option>
+                }
+                else
+                {
+                    <option @onclick="InvokeOnClick">@item.Text</option>
+                }
             }
-            else
-            {
-                <option @onclick="InvokeOnClick">@item.Text</option>
-            }
-        }
-    </InputSelect>
+        </InputSelect>
+    </div>
 </EditForm>
 
 

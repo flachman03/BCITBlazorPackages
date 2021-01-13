@@ -1,0 +1,23 @@
+﻿@inherits BCITDataTableBase
+@using BCITBlazor.Common.Tables 
+
+<div>
+    <h2>@Title</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                @foreach(var header in TableDefinitions.HeaderDefinitions.Headers)
+                {
+                    <th>@header</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <BCITDataTableCell 
+                    Cell="CellDefinition"
+                />
+            </tr>
+        </tbody>
+    </table>
+</div>
